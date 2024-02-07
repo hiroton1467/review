@@ -30,9 +30,24 @@
 }
 
 .main {
-  width: 100%; /* 横幅いっぱい */
+  width: 840px; /* 横幅いっぱい */
   height: 1400px; /* 高さ1400px（多めに設定） */
   background-color: green; /* 背景色green */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.blog{
+  width: 600px;
+  height: 1400px;
+  background-color: limegreen;
+}
+
+.sidebar{
+  width: 240px;
+  height: 1400px;
+  background-color: palegreen;
 }
 
 .footer {
